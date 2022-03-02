@@ -52,8 +52,7 @@ Software and hardware co-design based on quantization-aware training (INT8, W8A8
 - Model：MobileNetV1 YoloV3-tiny
 - Image Size：640x320
 - Dataset：BDD100k
-- Model mAp after training
-
+- mAp after training with 7 classes
 
 | Class  | mAP@0.5:0.95 (fp32) |  mAP@0.5:0.95 (INT8)  |
 | :------: | :---------: | :-------: |
