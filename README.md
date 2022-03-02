@@ -111,7 +111,7 @@ Software and hardware co-design based on quantization-aware training (INT8, W8A8
 
 2. Prepare a Demo video and make sure the development board is installed USB camera
 
-2. run demo file, your can see object detection boxes on your display 
+2. Run demo file with python3, you can see object detection boxes on the display 
 
     ```bash
     python3 run_camera_v3_10class.py  
