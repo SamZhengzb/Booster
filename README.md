@@ -100,7 +100,7 @@ Software and hardware co-design based on quantization-aware training (INT8, W8A8
 - Xilinx Zynq UltraScale+ MPSoC ZCU104
 - USB Camera
 - DP interface display or active DP-to-HDMI adapter and HDMI display
-- Xlinx PYNQ Framwork
+- Xilinx PYNQ Framwork
 
 ## How to use demo work
 1. Download demo file to your project work directory, such as
