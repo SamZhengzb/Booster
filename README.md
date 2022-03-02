@@ -48,7 +48,7 @@ Software and hardware co-design based on quantization-aware training (INT8, W8A8
 ## Power
 ![](https://hackster.imgix.net/uploads/attachments/1416044/power_65kWAtNi8o.png?auto=compress%2Cformat&w=740&h=555&fit=max)
 
-# Demo Show
+# Demo
 - Model：MobileNetV1 YoloV3-tiny
 - Image Size：640x320
 - Dataset：BDD100k
