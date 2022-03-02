@@ -72,7 +72,7 @@ Software and hardware co-design based on quantization-aware training (INT8, W8A8
 - Platform：ZCU104 + PYNQ
 - Scene building: OpenCV reads Camera, sequentially performs image Resize, Accelerator Inference, NMS processing and Box display.
 
-![](https://samzhengzb.github.io/2021/12/26/Booster/show1.gif)
+![](show1.png)
 
 ### Scene II: Highway scene application
 - Model： MobileNetV1-YoloV3-tiny，image size 640x320x3
@@ -80,7 +80,7 @@ Software and hardware co-design based on quantization-aware training (INT8, W8A8
 - Scene building: OpenCV reads Video, sequentially performs image Resize, Accelerator Inference, NMS processing and Box display.
 
 
-![](https://samzhengzb.github.io/2021/12/26/Booster/show2.gif)
+![](show2.png)
 
 # Test
 |           Test Work                                 |  FPS  |
