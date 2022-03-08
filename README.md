@@ -1,10 +1,10 @@
 # Booster
-A configurable hardware accelerator that supports a variety of vehicle environment perception algorithms based on Xilinx ZYNQ
+A configurable hardware accelerator that supports CNN object detection based on Xilinx ZYNQ
 
 # Introduction
 Self-driving cars cope with high-speed driving scenarios such as highways and trunk roads and the need to make timely responses to various sudden events, such as lane changes of vehicles next to them, sudden failures of vehicles ahead or the sudden appearance of pedestrians ahead, etc. The detection system requires high real-time performance, of which the hardware acceleration platform is the most critical part of the whole system. 
 
-The intelligent acceleration platform called **Booster** designed in this project can reason and accelerate a variety of deep learning algorithms to help the autonomous driving system quickly and comprehensively cognize complex road conditions, accurately perceive and predict traffic conditions during vehicle travel, and make accurate judgments about the surrounding environment in real time. In addition, it can also be applied in embedded fields such as intelligent security, smart transportation, and industrial production.
+The intelligent acceleration platform called **Booster** designed in this project can reason and accelerate a variety of deep learning algorithms liked Yolov3 or SSD， to help the autonomous driving system quickly and comprehensively cognize complex road conditions, accurately perceive and predict traffic conditions during vehicle travel, and make accurate judgments about the surrounding environment in real time. In addition, it can also be applied in embedded fields such as intelligent security, smart transportation, and industrial production.
 
 ![img](https://samzhengzb.github.io/2021/12/26/Booster/read_build1.png)
 
