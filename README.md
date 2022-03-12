@@ -4,7 +4,7 @@ A configurable hardware accelerator that supports CNN object detection based on 
 # Introduction
 Self-driving cars cope with high-speed driving scenarios such as highways and trunk roads and the need to make timely responses to various sudden events, such as lane changes of vehicles next to them, sudden failures of vehicles ahead or the sudden appearance of pedestrians ahead, etc. The detection system requires high real-time performance, of which the hardware acceleration platform is the most critical part of the whole system. 
 
-The intelligent acceleration platform called **Booster** designed in this project can reason and accelerate a variety of deep learning algorithms liked Yolov3 or SSD， to help the autonomous driving system quickly and comprehensively cognize complex road conditions, accurately perceive and predict traffic conditions during vehicle travel, and make accurate judgments about the surrounding environment in real time. In addition, it can also be applied in embedded fields such as intelligent security, smart transportation, and industrial production.
+The intelligent acceleration platform called **Booster** designed in this project can accelerate a variety of deep learning algorithms liked Yolov3 or SSD， to help the autonomous driving system quickly and comprehensively cognize complex road conditions, accurately perceive and predict traffic conditions during vehicle travel, and make accurate judgments about the surrounding environment in real time. In addition, it can also be applied in embedded fields such as intelligent security, smart transportation, and industrial production.
 
 ![img](https://samzhengzb.github.io/2021/12/26/Booster/read_build1.png)
 
@@ -21,8 +21,7 @@ The computation module is the core module of the Booster, which mainly consists 
 
  + A generalized accelerator architecture, called Booster. It consists of a buffer part and a computational part. The buffer module is used to configure the parameters of the network model, and the user can directly deploy different CNN network models by configuring the parameters of the network model and instructions describing the model structure to the parameter buffer and instruction buffer of the accelerator system.
 
- + High utilization PE unit design, which can realize 3 different types of convolutional computation, including standard convolution, deep convolution, and point convolution
-Software and hardware co-design based on quantization-aware training (INT8, W8A8)
+ + High utilization PE unit design, which can realize 3 different types of convolutional computation, including standard convolution, deepwise convolution, and pointwise convolution. Software and hardware co-design based on quantization-aware training (INT8, W8A8)
 
 - Support operators
   + Standard Convolution、Depthwise Convolution、Pointwise Convolution
