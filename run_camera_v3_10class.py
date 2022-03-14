@@ -4,7 +4,7 @@
 #   Company       : Southeast University
 #   Email         : samzhengzb@gmail.com
 
-#   Description   : the run file of SpeechNet Model
+#   Description   : the run file of object detection model
 
 # ==============================================================================
 #   Version : v-1.0
