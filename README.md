@@ -11,11 +11,11 @@ The intelligent acceleration platform called **Booster** designed in this projec
 # System Architecture
 ![](https://hackster.imgix.net/uploads/attachments/1416043/booster_arch_qFZvN6WBa2.png?auto=compress%2Cformat&w=740&h=555&fit=max)
 
-The entire system is built on the Xilinx ZYNQ heterogeneous computing platform, with the ARM (CPU) side running a Linux system with the PYNQ software framework, the CPU configuring the accelerator and DMA through the AXI-GP interface, and the accelerator data handling relying on the DMA through the AXI-HP interface, using the AXI-Stream bus. The accelerator system, called Booster System, contains a buffer module, a compute module, and a bus interface module.
+The entire system is built on the Xilinx ZYNQ heterogeneous computing platform, with the ARM (CPU) side running a Linux system with the PYNQ software framework, the CPU configuring the accelerator and DMA through the AXI-GP interface, and the accelerator data transmission relying on the DMA through the AXI-HP interface, using the AXI-Stream bus. The accelerator system, called Booster System, contains a buffer module, a computation module, and a bus interface module.
 
 The buffer module contains the instruction buffer, the BN parameter buffer, the weight buffer, and the input and output buffer for the image and computation results.
 
-The computation module is the core module of the Booster, which mainly consists of the control module, two feature map buffer modules, PE module, preprocessing module, accumulation module, BN ReLU module (referred to as BR module), and pooling module.
+The computation module is the core module of the Booster, which mainly consists of the controller, two feature map buffer, Processing Elements, preprocessing module, accumulation buffer, BN ReLU module (referred to as BR module), and pooling module.
 
 ### Main Features
 
